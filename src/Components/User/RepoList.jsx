@@ -7,7 +7,7 @@ export default function RepoList({ repos }) {
                 {repos.map((element) => {
                     return (
                         <a
-                            href={element.url}
+                            href={element.html_url}
                             target="blank"
                             key={element.id}
                             className="p-4 bg-green-200 rounded me-4 mb-4"
